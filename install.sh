@@ -2,6 +2,10 @@ bash dependencies.sh
 
 cp -r bin ~/bin
 
+echo "Set SSH password"
+
+passwd
+
 echo "*/15 * * * * ~/bin/duckdns.sh&&date >~/duck.log" > /data/data/com.termux/files/usr/var/spool/cron/crontabs.11699
 
 chmod +x /data/data/com.termux/files/usr/var/spool/cron/crontabs.11699
