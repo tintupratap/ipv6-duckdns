@@ -1,3 +1,4 @@
+bash dependencies.sh
 
 cp -r bin ~/bin
 
